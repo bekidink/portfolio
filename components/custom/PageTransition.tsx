@@ -16,7 +16,7 @@ const PageTransition = ({ children }: { children: React.ReactNode }) => {
             opacity: 0,
             transition: { delay: 1, duration: 0.4, ease: "easeInOut" },
           }}
-          className="fixed top-0 left-0 w-full h-full bg-primary pointer-events-none z-10"
+          // className="fixed top-0 left-0 w-full h-full bg-primary pointer-events-none z-10"
         />
         {/* Page Content */}
         <div className="relative z-20">{children}</div>

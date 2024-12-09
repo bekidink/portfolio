@@ -124,7 +124,7 @@ export default function Page() {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
+      // className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
       <div className="container mx-auto xl:max-w-7xl items-center">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">

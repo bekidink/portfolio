@@ -39,7 +39,7 @@ export default function page() {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-6"
+      // className="py-6"
     >
       <div className="container mx-auto max-w-7xl items-center">
         <div className="flex flex-col xl:flex-row gap-[30px]">

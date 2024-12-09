@@ -9,7 +9,7 @@ export default function WorkSliderBtn({
 }: {
   containerStyles:string,
   btnStyles:string,
-  iconsStyles:string
+  iconsStyles?:string
 }) {
   const swiper = useSwiper();
   return (
