@@ -1,12 +1,13 @@
 import Photo from "@/components/custom/Photo";
 import Social from "@/components/custom/Social";
+import Stats from "@/components/custom/Stats";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FiDownload } from "react-icons/fi";
 export default function Home() {
   return (
-    <section className="h-full">
-      <div className="container mx-10 h-full">
+    <section className="h-full w-full xl:max-w-7xl">
+      <div className="container xl:mx-10 h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
@@ -40,6 +41,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 }
