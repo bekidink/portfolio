@@ -111,7 +111,7 @@ const projects = [
     github: "",
   },
 ];
-export default function page() {
+export default function Page() {
   const [project, setProject] = useState(projects[0]);
   const handleSlideChange = (swiper: { activeIndex: any }) => {
     const currentIndex = swiper.activeIndex;
