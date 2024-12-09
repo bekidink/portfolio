@@ -16,7 +16,6 @@ import {
   SiTailwindcss,
   SiRedux,
   SiReduxsaga,
-  SiGetx,
   SiMongodb,
   SiFirebase,
   SiSupabase,

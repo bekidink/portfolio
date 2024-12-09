@@ -113,7 +113,7 @@ const projects = [
 ];
 export default function Page() {
   const [project, setProject] = useState(projects[0]);
-  const handleSlideChange = (swiper: { activeIndex: any }) => {
+  const handleSlideChange = (swiper: { activeIndex: number }) => {
     const currentIndex = swiper.activeIndex;
     setProject(projects[currentIndex]);
   };

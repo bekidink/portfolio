@@ -6,16 +6,22 @@ const links = [
   { icon: <FaLinkedinIn />, path: "" },
   { icon: <FaTwitter />, path: "" },
 ];
-export default function Social({containerStyles,iconStyles}:any) {
+export default function Social({
+  containerStyles,
+  iconStyles,
+}: {
+  containerStyles:string,
+  iconStyles:string
+}) {
   return (
     <div className={containerStyles}>
-      {links.map((item,i)=>{
+      {links.map((item, i) => {
         return (
-            <Link href={item.path} className={iconStyles}>
-                {item.icon}
-            </Link>
-        )
+          <Link key={i} href={item.path} className={iconStyles}>
+            {item.icon}
+          </Link>
+        );
       })}
     </div>
-  )
+  );
 }
