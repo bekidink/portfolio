@@ -18,9 +18,9 @@ export default function Photo() {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[248px] xl:w-[498px] xl:h-[428px] mix-blend-lighten absolute"
+          // className="w-[298px] h-[248px] xl:w-[498px] xl:h-[428px] mix-blend-lighten absolute"
         >
-          {/* <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten"> */}
+          <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten">
             <Image
               src={"/beki1.png"}
               alt=""
@@ -29,7 +29,7 @@ export default function Photo() {
               fill
               className="object-contain"
             />
-          {/* </div> */}
+          </div>
         </motion.div>
         <motion.svg
           className={"w-[300px] h-[300px] xl:w-[506px] xl:h-[506px]"}
