@@ -83,17 +83,14 @@ export const aboutData = {
       fieldName: "Phone",
       fieldValue: "(+251)901108024",
     },
-    {
-      fieldName: "Name",
-      fieldValue: "Bereket Dinku",
-    },
+
     {
       fieldName: "Experience",
       fieldValue: "1+ Years",
     },
     {
       fieldName: "Skype",
-      fieldValue: "beki",
+      fieldValue: "bereket dinku",
     },
     {
       fieldName: "Nationality",
@@ -114,6 +111,10 @@ export const aboutData = {
     {
       fieldName: "Remote",
       fieldValue: "Available",
+    },
+    {
+      fieldName: "Location",
+      fieldValue: "Addis Ababa,Ethiopia",
     },
   ],
 };

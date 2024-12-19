@@ -2,6 +2,7 @@ import Photo from "@/components/custom/Photo";
 import Social from "@/components/custom/Social";
 import Stats from "@/components/custom/Stats";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { FiDownload } from "react-icons/fi";
 export default function Home() {
   return (
@@ -15,8 +16,11 @@ export default function Home() {
               <span className="text-accent">Bereket Dinku</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies
+              🌟 Creative Mobile App & Web Developer delivering top-tier
+              applications with modern design and seamless functionality.
+              Proficient in React,Nextjs, Node.js, and Flutter, I thrive in
+              bringing ideas to life through clean code, intuitive interfaces,
+              and robust performance.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
@@ -24,7 +28,13 @@ export default function Home() {
                 size={"lg"}
                 className="uppercase flex items-center gap-2 rounded-full"
               >
-                <span>Download CV</span>
+                <Link
+                  href="https://drive.google.com/file/d/1DIZg2ngIA2A_6QHtjurGo6C1vWwDUXH4/view?usp=drive_link" // Replace with the actual path to the CV file
+                  download="YourName_CV.pdf"
+                >
+                  <span>Download CV</span>
+                </Link>
+
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

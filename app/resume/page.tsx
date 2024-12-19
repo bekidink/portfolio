@@ -246,7 +246,7 @@ export default function page() {
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {aboutData.description}
                 </p>
-                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-x-6 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-x-6 gap-y-6 max-w-[820px] mx-auto xl:mx-0">
                   {aboutData.info.map((item, i) => {
                     return (
                       <li

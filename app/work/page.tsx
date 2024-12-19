@@ -17,6 +17,39 @@ const projects = [
   {
     num: "01",
     category: "Full Stack",
+    title: "E-Learning Web",
+    description: "",
+    stack: [
+      { name: "Nextjs" },
+      { name: "Typescript" },
+      { name: "Express" },
+      { name: "Nodejs" },
+      { name: "tailwindcss" },
+    ],
+    image: "/lms.png",
+    live: "https://e-learning-omega-nine.vercel.app/",
+    github: "https://github.com/bekidink/LMS-Nextjs",
+  },
+  {
+    num: "02",
+    category: "Full Stack",
+    title: "Ecommerce Web",
+    description: "",
+    stack: [
+      { name: "Nextjs" },
+      { name: "Typescript" },
+      { name: "Express" },
+      { name: "Nodejs" },
+      { name: "tailwindcss" },
+    ],
+    image: "/mern-ecom.png",
+    live: "https://ecom-front-end-lovat.vercel.app/",
+    github: "https://github.com/bekidink/Ecom-FrontEnd",
+  },
+  
+  {
+    num: "03",
+    category: "Full Stack",
     title: "Doctor Appointment",
     description: "",
     stack: [
@@ -31,7 +64,7 @@ const projects = [
     github: "https://github.com/bekidink/medical-app",
   },
   {
-    num: "02",
+    num: "04",
     category: "Mobile App",
     title: "Ethio Crop",
     description: "",
@@ -47,7 +80,7 @@ const projects = [
     github: "https://github.com/bekidink/ethioplant",
   },
   {
-    num: "03",
+    num: "05",
     category: "Full Stack",
     title: "Multi-Vendor Website",
     description: "",
@@ -59,43 +92,42 @@ const projects = [
       { name: "tailwindcss" },
     ],
     image: "/multi/Capture.PNG",
-    live: "",
-    github: "",
+    live: "multivendor-restaurant.vercel.app",
+    github: "https://github.com/bekidink/multivendor-website",
   },
   {
-    num: "04",
+    num: "06",
     category: "Mobile App",
     title: "Coffee Shop",
     description: "",
     stack: [
-      { name: "Nextjs" },
-      { name: "Next-Auth" },
-      { name: "Prisma" },
+      { name: "Expo" },
+      { name: "React Native" },
+      { name: "Redux" },
+      { name: "Nodejs" },
       { name: "Mongodb" },
-      { name: "tailwindcss" },
     ],
     image: "/coffee.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/bekidink/coffee-app-reactNative",
   },
   {
-    num: "05",
-    category: "frontend",
-    title: "Doctor Appointment",
+    num: "07",
+    category: "Mobile App",
+    title: "Multi Vendor",
     description: "",
     stack: [
-      { name: "Nextjs" },
-      { name: "Next-Auth" },
-      { name: "Prisma" },
+      { name: "Flutter" },
+      { name: "Getx" },
+      { name: "Nodejs" },
       { name: "Mongodb" },
-      { name: "tailwindcss" },
     ],
-    image: "/drapp/dr-home.PNG",
+    image: "/restaurant.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/bekidink/mutli-restaurant-flutter",
   },
   {
-    num: "06",
+    num: "08",
     category: "frontend",
     title: "Doctor Appointment",
     description: "",
@@ -128,13 +160,14 @@ export default function Page() {
     >
       <div className="container mx-auto xl:max-w-7xl items-center">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
-          <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
+          <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none my-5">
             <div className="flex flex-col gap-[30px]">
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project.num}
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title}{" "}
+                <p className="text-[32px] text-accent">({project.category})</p>
               </h2>
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4">
@@ -191,9 +224,9 @@ export default function Page() {
                       <div className="relative w-full h-full">
                         <Image
                           src={project.image}
-                          fill
-                          className="object-cover"
                           alt=""
+                          fill
+                          className="w-60 h-64 md:w-80 md:h-72 object-fill justify-center"
                         />
                       </div>
                     </div>
