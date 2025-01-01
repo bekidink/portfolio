@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import { FaGithub, FaLinkedinIn,  FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const links = [
   { icon: <FaGithub />, path: "https://github.com/bekidink" },
   {
