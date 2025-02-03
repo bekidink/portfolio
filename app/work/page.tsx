@@ -16,6 +16,59 @@ import WorkSliderBtn from "@/components/custom/WorkSliderBtn";
 const projects = [
   {
     num: "01",
+    category: "Mobile App",
+    title: "Wegagen Mobile @ACT",
+    description:
+      "User-friendly, secure, and reliable mobile banking application to meet your banking needs anywhere, anytime within the reach of your fingertips.",
+    stack: [
+      { name: "React Native" },
+      { name: "React" },
+      { name: "Redux" },
+      { name: "Expo" },
+      { name: "tailwindcss" },
+    ],
+    image: "/work/wegagen_mobile.webp",
+    live: "",
+    github: "",
+  },
+
+  {
+    num: "02",
+    category: "Mobile App",
+    title: "ZamZam Mobile @ACT",
+    description:
+      "User-friendly, secure, and reliable mobile banking application to meet your banking needs anywhere, anytime within the reach of your fingertips.",
+    stack: [
+      { name: "React Native" },
+      { name: "React" },
+      { name: "Redux" },
+      { name: "Expo" },
+      { name: "tailwindcss" },
+    ],
+    image: "/work/zz.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "03",
+    category: "Mobile App",
+    title: "Hijra Omni-Plus @ACT",
+    description:
+      "Mobile Banking solution which allows you to perform several banking activities with its multi language, unified access and QR enabled features.",
+    stack: [
+      { name: "React Native" },
+      { name: "React" },
+      { name: "Redux" },
+      { name: "Expo" },
+      { name: "tailwindcss" },
+    ],
+    image: "/work/hijra_omni-plus.webp",
+    live: "",
+    github: "",
+  },
+
+  {
+    num: "04",
     category: "Full Stack",
     title: "E-Learning Web",
     description: "",
@@ -31,7 +84,7 @@ const projects = [
     github: "https://github.com/bekidink/LMS-Nextjs",
   },
   {
-    num: "02",
+    num: "05",
     category: "Full Stack",
     title: "Ecommerce Web",
     description: "",
@@ -46,9 +99,9 @@ const projects = [
     live: "https://ecom-front-end-lovat.vercel.app/",
     github: "https://github.com/bekidink/Ecom-FrontEnd",
   },
-  
+
   {
-    num: "03",
+    num: "06",
     category: "Full Stack",
     title: "Doctor Appointment",
     description: "",
@@ -64,7 +117,7 @@ const projects = [
     github: "https://github.com/bekidink/medical-app",
   },
   {
-    num: "04",
+    num: "07",
     category: "Mobile App",
     title: "Ethio Crop",
     description: "",
@@ -80,7 +133,7 @@ const projects = [
     github: "https://github.com/bekidink/ethioplant",
   },
   {
-    num: "05",
+    num: "08",
     category: "Full Stack",
     title: "Multi-Vendor Website",
     description: "",
@@ -96,7 +149,7 @@ const projects = [
     github: "https://github.com/bekidink/multivendor-website",
   },
   {
-    num: "06",
+    num: "09",
     category: "Mobile App",
     title: "Coffee Shop",
     description: "",
@@ -112,7 +165,7 @@ const projects = [
     github: "https://github.com/bekidink/coffee-app-reactNative",
   },
   {
-    num: "07",
+    num: "10",
     category: "Mobile App",
     title: "Multi Vendor",
     description: "",
@@ -127,7 +180,7 @@ const projects = [
     github: "https://github.com/bekidink/mutli-restaurant-flutter",
   },
   {
-    num: "08",
+    num: "11",
     category: "frontend",
     title: "Doctor Appointment",
     description: "",

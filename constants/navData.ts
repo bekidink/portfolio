@@ -46,10 +46,10 @@ export const stats = [
     num: 8,
     text: "Technologies mastered",
   },
-  {
-    num: 100,
-    text: "Code commits",
-  },
+  // {
+  //   num: 100,
+  //   text: "Code commits",
+  // },
 ];
 export const services = [
   {
