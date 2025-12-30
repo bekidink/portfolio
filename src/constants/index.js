@@ -94,6 +94,42 @@ export const myProjects = [
     ],
   },
   {
+    title: 'Siinqee Mobile App @ACT',
+    desc: 'User-friendly, secure, and reliable mobile banking application to meet your banking needs anywhere, anytime within the reach of your fingertips.',
+    subdesc: '',
+    href: 'https://apps.apple.com/us/app/siinqee-mobile-banking-app/id6751509122',
+    texture: '/work/siinqee.mp4',
+    logo: '/work/siinqee.webp',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React Native',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 4,
+        name: 'React',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+    ],
+  },
+  {
     title: 'ZamZam Mobile @ACT',
     desc: 'Mobile Banking solution which allows you to perform several banking activities with its multi language, unified access,biometrics authentication and QR enabled features.',
     subdesc: '',
